@@ -20,8 +20,8 @@ def follow(thefile, target):
              continue
          target.send(line)
 
-# A sink.  A coroutine that receives data
 
+# A sink.  A coroutine that receives data
 @coroutine
 def printer():
     while True:
